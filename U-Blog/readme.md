@@ -1,6 +1,4 @@
-Project Structure - fsd-java-ublog
 
- 
 
 The details of the folders inside the project are as follows
 
