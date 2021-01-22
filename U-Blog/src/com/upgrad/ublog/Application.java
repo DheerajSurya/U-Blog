@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-public class 1Application {
+public class Application {
     private Scanner scanner;
 
     private PostService postService;

@@ -28,8 +28,8 @@ public class Database {
         if (connection == null) {
 
             String url = "jdbc:mysql://localhost/ublog";
-            String username = "aprameya";
-            String password = "13020Ec@225";
+            String username = "root";
+            String password = "root";
 
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
@@ -43,12 +43,12 @@ public class Database {
         return connection;
     }
 
-//    public static void main(String[] args){
-//        try {
-//            Database.getConnection();
-//            System.out.println("Connected");
-//        } catch (Exception e) {
-//            System.out.println("Not Connected");
-//        }
-//    }
+   public static void main(String[] args){
+        try {
+           Database.getConnection();
+           System.out.println("Connected");
+       } catch (Exception e) {
+            System.out.println("Not Connected");
+       }
+    }
 }
