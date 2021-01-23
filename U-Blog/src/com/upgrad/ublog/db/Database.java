@@ -27,9 +27,9 @@ public class Database {
 
         if (connection == null) {
 
-            String url = "jdbc:mysql://localhost/ublog";
+            String url = "jdbc:mysql://localhost:3306/ublog";
             String username = "root";
-            String password = "root";
+            String password = "Aircelasd@1";
 
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
